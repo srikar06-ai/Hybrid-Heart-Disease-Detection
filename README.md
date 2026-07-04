@@ -5,6 +5,8 @@
 ![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
 ![Research](https://img.shields.io/badge/Research-ICEAT%202026-success)
 
+![Architecture](images/architecture.png)
+
 A research-oriented deep learning framework for binary heart disease classification using transfer learning and MobileNetV3 on cardiac MRI images.
 ---
 
