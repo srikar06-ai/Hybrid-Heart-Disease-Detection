@@ -1,5 +1,10 @@
 # Hybrid Heart Disease Detection Using Transfer Learning
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
+![Research](https://img.shields.io/badge/Research-ICEAT%202026-success)
+
 A research-oriented deep learning framework for binary heart disease classification using transfer learning and MobileNetV3 on cardiac MRI images.
 ---
 
