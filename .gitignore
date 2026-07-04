@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+*.keras
+*.h5
+
+# Dataset
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
