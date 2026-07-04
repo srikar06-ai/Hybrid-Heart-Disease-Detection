@@ -13,7 +13,7 @@
 ##  Architecture
 
 <p align="center">
-<img src="Images/architecture.png" width="100%">
+<img src="images/architecture.png" width="100%">
 </p>
 
 
@@ -55,21 +55,21 @@ This project presents a **hybrid transfer learning framework** for binary heart 
 
 <p align="center">
 
-<img src="Results/accuracy.jpg" width="49%">
-<img src="Results/precision.jpg" width="49%">
+<img src="results/accuracy.jpg" width="49%">
+<img src="results/precision.jpg" width="49%">
 
 </p>
 
 <p align="center">
 
-<img src="Results/recall.jpg" width="49%">
-<img src="Results/f1score.jpg" width="49%">
+<img src="results/recall.jpg" width="49%">
+<img src="results/f1score.jpg" width="49%">
 
 </p>
 
 <p align="center">
 
-<img src="Results/auc.jpg" width="70%">
+<img src="results/auc.jpg" width="70%">
 
 </p>
 
@@ -131,7 +131,11 @@ Presented at:
 
 ## Citation
 
-If you use this work in your research, please cite:
-P. Srikar Kashyap,
-"Heart Disease Detection and Classification Using Hybrid Transfer Learning,"
-ICEAT 2026.
+```bibtex
+@inproceedings{srikar2026heart,
+  title={Heart Disease Detection and Classification Using Hybrid Transfer Learning},
+  author={P. Srikar Kashyap and others},
+  booktitle={ICEAT},
+  year={2026}
+}
+```
