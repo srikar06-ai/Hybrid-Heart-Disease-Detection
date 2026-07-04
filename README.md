@@ -1,103 +1,137 @@
-# Hybrid Heart Disease Detection Using Transfer Learning
+#  Hybrid Heart Disease Detection Using Transfer Learning
+
+<p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
-![Research](https://img.shields.io/badge/Research-ICEAT%202026-success)
+![Keras](https://img.shields.io/badge/Keras-DeepLearning-red?logo=keras)
+![Research](https://img.shields.io/badge/Conference-ICEAT%202026-success)
 
-![Architecture](images/architecture.png)
+</p>
 
-A research-oriented deep learning framework for binary heart disease classification using transfer learning and MobileNetV3 on cardiac MRI images.
----
 
-# Overview
+##  Architecture
 
-This project focuses on developing a hybrid deep learning model for binary heart disease detection using cardiac MRI images. Multiple state-of-the-art CNN architectures were evaluated, and MobileNetV3 was selected as the final model based on experimental performance.
+<p align="center">
+<img src="Images/architecture.png" width="100%">
+</p>
 
----
 
-# Features
+##  Overview
 
-- Binary Heart Disease Classification
-- Transfer Learning using MobileNetV3
-- Performance Comparison with Multiple CNN Models
-- Confusion Matrix
-- ROC Curve
-- Classification Report
-- Research-based Implementation
+This project presents a **hybrid transfer learning framework** for binary heart disease classification using **cardiac MRI images**. Multiple CNN architectures were evaluated, and a **MobileNetV3-based hybrid model** achieved the best overall performance.
 
----
 
-# Technologies Used
+##  Features
 
-- Python
-- TensorFlow
-- Keras
-- NumPy
-- Pandas
-- Scikit-learn
-- Matplotlib
+-  Binary Heart Disease Classification
+-  Transfer Learning using MobileNetV3 Large
+-  Performance Comparison with Multiple CNN Models
+-  ROC-AUC and Confusion Matrix Analysis
+-  Research-oriented Implementation
 
----
+## Dataset
 
-# Project Structure
+- Total Images: 12,200
+- Classes: Normal / Sick
+- Image Size: 224 × 224
+- Train/Test Split: 80/20
+- Data Augmentation: Rotation, Zoom, Translation, Horizontal Flip
 
-```
+#  Results
+
+## Best Performance
+
+<p align="center">
+
+| Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+|:--------:|:---------:|:------:|:--------:|:-------:|
+| **95.66%** | **93.93%** | **99.92%** | **95.74%** | **99.31%** |
+
+</p>
+
+
+##  Performance Comparison
+
+<p align="center">
+
+<img src="Results/accuracy.jpg" width="49%">
+<img src="Results/precision.jpg" width="49%">
+
+</p>
+
+<p align="center">
+
+<img src="Results/recall.jpg" width="49%">
+<img src="Results/f1score.jpg" width="49%">
+
+</p>
+
+<p align="center">
+
+<img src="Results/auc.jpg" width="70%">
+
+</p>
+
+##  Models Evaluated
+
+| Model | Status |
+|--------|--------|
+| MobileNetV3 Large | ✅ Final Model |
+| ResNet50 | Baseline |
+| EfficientNetB0 | Baseline |
+| DenseNet121 | Baseline |
+
+
+##  Repository Structure
+
+```text
 Hybrid-Heart-Disease-Detection
 │
-├── Notebooks/
 ├── Images/
 ├── Results/
-├── Models/
+├── Notebooks/
 ├── docs/
 ├── README.md
-└── .gitignore
+└── requirements.txt
 ```
 
----
 
-# Models Evaluated
+##  Installation
 
-- MobileNetV3 Large
-- DenseNet121
-- EfficientNetB0
-- ResNet50
+```bash
+git clone https://github.com/srikar06-ai/Hybrid-Heart-Disease-Detection.git
 
-Final Selected Model:
+cd Hybrid-Heart-Disease-Detection
 
-- MobileNetV3-based Hybrid Model
+pip install -r requirements.txt
+```
 
----
 
-# Results
+##  Research
 
-The project includes:
-
-- Accuracy & Loss Curves
-- ROC Curve
-- Confusion Matrix
-- Classification Report
-
----
-
-# Research
-
-This work was presented at the
+Presented at:
 
 **8th International Conference on Engineering & Advancement in Technology (ICEAT 2026)**
 
-Paper Title:
 
-**Heart Disease Detection and Classification of MRI Images using Hybrid Model Transfer Learning Approach**
+## Future Work
 
----
+- Extend the framework to multi-class cardiac disease classification.
+- Incorporate clinical metadata for multimodal learning.
+- Optimize the model for edge-device deployment.
+- Validate the framework on larger multi-center datasets.
 
-# Dataset
+## Author
 
-The dataset is not included in this repository due to size limitations.
+**P. Srikar Kashyap**
 
----
+- GitHub: https://github.com/srikar06-ai
+- LinkedIn: https://linkedin.com/in/srikar-kashyap-020576317
 
-# Author
+## Citation
 
-P. Srikar Kashyap
+If you use this work in your research, please cite:
+P. Srikar Kashyap,
+"Heart Disease Detection and Classification Using Hybrid Transfer Learning,"
+ICEAT 2026.
