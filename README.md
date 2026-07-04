@@ -13,7 +13,7 @@
 ##  Architecture
 
 <p align="center">
-<img src="images/architecture.png" width="100%">
+<img src="images/architecture.png" width="85%">
 </p>
 
 
